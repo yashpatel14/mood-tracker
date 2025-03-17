@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+h1 {
+    color: #333;
+}
+.mood-buttons button {
+    font-size: 24px;
+    margin: 5px;
+    padding: 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.mood-buttons button:hover {
+    transform: scale(1.1);
+}
+.mood-buttons button:nth-child(1) { background-color: #ffcc00; }
+.mood-buttons button:nth-child(2) { background-color: #ff6666; }
+.mood-buttons button:nth-child(3) { background-color: #cccccc; }
+.mood-buttons button:nth-child(4) { background-color: #66ccff; }
+.filter-buttons button {
+    margin: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+    transition: 0.3s;
+}
+.filter-buttons button:hover {
+    background-color: #777;
+}
+#mood-log {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin: auto;
+}
+#mood-log li {
+    background: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#calendar {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .fc-daygrid-event-harness{
+    text-align: center;
+    font-size: 28px;
+  }
