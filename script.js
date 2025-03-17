@@ -35,7 +35,7 @@ function calander() {
 
   const moodInCalander = localMood.map((data) => ({
     title: `${data.mood}`,
-    start: convertToISOFormat(data.date),
+    start: convertToISOFormat(data.date) || new Date().toISOString().split("T")[0],
     allDay: true,
   }));
   var calendar = new FullCalendar.Calendar(calendarEl, {
