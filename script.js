@@ -12,7 +12,7 @@ function saveMood(mood) {
   }
 
   localStorage.setItem("moods", JSON.stringify(moods));
-  displayMoods();
+//   displayMoods();
   calander();
   removeClass();
 }
@@ -32,6 +32,11 @@ function calander() {
   var calendarEl = document.getElementById("calendar");
   let localMood = JSON.parse(localStorage.getItem("moods"));
 //   console.log(localMood);
+
+if (!localMood.length) {
+    console.warn("No mood data found.");
+    return; // Exit function if no data
+  }
 
   const moodInCalander = localMood.map((data) => ({
     title: `${data.mood}`,
@@ -70,6 +75,6 @@ function removeClass() {
   });
 }
 
-displayMoods();
+// displayMoods();
 calander();
 removeClass();
