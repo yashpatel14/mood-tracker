@@ -15,10 +15,10 @@ A simple and intuitive **Mood Tracker** that allows users to log their daily moo
 ## 📸 Screenshots  
 
 ### **Mood Selection Page**  
-![Mood Selection](https://prnt.sc/hkeMjShR5Xaf)  
+ 🔗 **[Mood Selection](https://prnt.sc/hkeMjShR5Xaf)**
 
 ### **Mood Calendar View**  
-![Calendar View](https://prnt.sc/Rql_21mZ5pgW)  
+🔗 **[Calendar View](https://prnt.sc/Rql_21mZ5pgW)**
 
 ---
 
