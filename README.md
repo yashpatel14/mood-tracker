@@ -15,16 +15,16 @@ A simple and intuitive **Mood Tracker** that allows users to log their daily moo
 ## 📸 Screenshots  
 
 ### **Mood Selection Page**  
-![Mood Selection](./screenshots/mood-selection.png)  
+![Mood Selection](https://prnt.sc/hkeMjShR5Xaf)  
 
 ### **Mood Calendar View**  
-![Calendar View](./screenshots/calendar-view.png)  
+![Calendar View](https://prnt.sc/Rql_21mZ5pgW)  
 
 ---
 
 ## 🌍 Live Demo  
 
-🔗 **[Try the Mood Tracker](https://your-deployment-link.com)**  
+🔗 **[Try the Mood Tracker](https://mood-tracker-orcin.vercel.app)**  
 
 ---
 
@@ -32,5 +32,5 @@ A simple and intuitive **Mood Tracker** that allows users to log their daily moo
 
 ### **1. Clone the Repository**  
 ```sh
-git clone https://github.com/your-username/mood-tracker.git
+git clone https://github.com/yashpatel14/mood-tracker.git
 cd mood-tracker
